@@ -31,4 +31,4 @@ jobs:
           application_name: ${{ secrets.EB_APPLICATION_NAME }}
           environment_name: ${{ secrets.EB_ENVIRONMENT_NAME }}
           version_label: ${{ github.sha }}
-          deployment_package: target/*.jar
+          deployment_package: target/backend-app-0.0.1-SNAPSHOT.jar
